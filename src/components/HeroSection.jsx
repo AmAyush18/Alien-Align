@@ -36,7 +36,7 @@ const HeroSection = () => {
               </p>
               <div className="flex space-x-4">
                 <Link
-                  to="/play"
+                  to="/missions"
                   className="px-8 py-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg font-medium hover:from-purple-500 hover:to-pink-500 transition-all transform hover:scale-105"
                 >
                   Start Mission

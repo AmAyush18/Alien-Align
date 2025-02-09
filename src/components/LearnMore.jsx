@@ -1,5 +1,6 @@
 import React from "react";
 import { Star, Stars, Rocket, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const StorySection = ({ children, isReverse = false }) => (
     <div
@@ -135,18 +136,18 @@ const LearnMore = () => {
                 </p>
               </div>
               <div className="flex justify-center space-x-4">
-                <a
-                  href="/play"
+                <Link
+                  to="/missions"
                   className="px-8 py-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg font-medium hover:from-purple-500 hover:to-pink-500 transition-all transform hover:scale-105"
                 >
                   Rescue Aliens
-                </a>
-                <a
-                  href="/donate"
+                </Link>
+                <Link
+                  to="/support"
                   className="px-8 py-3 rounded-full border border-purple-400 text-purple-400 text-lg font-medium hover:bg-purple-400/10 transition-all"
                 >
                   Support the Mission
-                </a>
+                </Link>
               </div>
             </div>
           </div>

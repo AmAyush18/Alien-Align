@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const navigationItems = [
     { id: 1, label: 'Home', url: '/' },
-    { id: 3, label: 'Missions', url: '/play' },
+    { id: 3, label: 'Missions', url: '/missions' },
     { id: 4, label: 'Support Us', url: '/support', isButton: true }
   ];
 
@@ -30,12 +30,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <NavLink to="/" className="flex items-center space-x-2 cursor-pointer">
             <img src="/icon.png" alt="Logo" className="w-8 h-8" />
             <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text">
               Alien Align
             </span>
-          </div>
+          </NavLink>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

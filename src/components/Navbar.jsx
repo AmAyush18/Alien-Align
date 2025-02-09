@@ -8,7 +8,7 @@ const Navbar = () => {
   const navigationItems = [
     { id: 1, label: 'Home', url: '/' },
     { id: 3, label: 'Missions', url: '/play' },
-    { id: 4, label: 'Support Us', url: '/donate', isButton: true }
+    { id: 4, label: 'Support Us', url: '/support', isButton: true }
   ];
 
   const getLinkClasses = ({ isActive }) => {

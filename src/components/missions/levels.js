@@ -251,6 +251,7 @@ export const levels = [
   },
   {
     id: 17,
+    level: 17,
     title: "Wormhole Challenge",
     story: "The aliens must align perfectly to enter the wormhole!",
     hint: "Use flex-direction and spacing properties strategically.",

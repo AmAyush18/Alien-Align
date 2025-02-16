@@ -3,7 +3,8 @@ export const levels = [
     id: 1,
     level: 1,
     title: "The Lost Signal",
-    story: "An alien named Zax has lost connection with their mothership! They need to position themselves perfectly to establish a communication link. Can you help Zax reach their UFO?",
+    story:
+      "An alien named Zax has lost connection with their mothership! They need to position themselves perfectly to establish a communication link. Can you help Zax reach their UFO?",
     hint: "Try using properties that control both horizontal and vertical positioning",
     solution: {
       "justify-content": "center",
@@ -11,22 +12,41 @@ export const levels = [
     },
     propertiesToTry: ["justify-content", "align-items"],
     validOptions: {
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
     id: 2,
     level: 2,
     title: "Cosmic Elevation",
-    story: "The alien crew spotted their ship up in the cosmic winds! They need your flexbox expertise to reach the correct height.",
+    story:
+      "The alien crew spotted their ship up in the cosmic winds! They need your flexbox expertise to reach the correct height.",
     hint: "You only need to use justify-content for this level - try to reach the UFO horizontally first!",
     solution: {
       "justify-content": "flex-end",
     },
     propertiesToTry: ["justify-content"],
     validOptions: {
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
     },
   },
   {
@@ -40,14 +60,21 @@ export const levels = [
     },
     propertiesToTry: ["align-items"],
     validOptions: {
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
     id: 4,
     level: 4,
     title: "Ship Docking",
-    story: "The ship has multiple docking stations! Align the aliens correctly.",
+    story:
+      "The ship has multiple docking stations! Align the aliens correctly.",
     hint: "Use both justify-content and align-items for full control.",
     solution: {
       "justify-content": "center",
@@ -55,8 +82,20 @@ export const levels = [
     },
     propertiesToTry: ["justify-content", "align-items"],
     validOptions: {
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -72,7 +111,13 @@ export const levels = [
     propertiesToTry: ["flex-direction", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -100,21 +145,34 @@ export const levels = [
     },
     propertiesToTry: ["justify-content"],
     validOptions: {
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
     },
   },
   {
     id: 8,
     level: 8,
     title: "Orbital Alignment",
-    story: "The aliens must maintain equal space around them in their orbital positions!",
+    story:
+      "The aliens must maintain equal space around them in their orbital positions!",
     hint: "Use justify-content to create equal spacing around elements.",
     solution: {
       "justify-content": "space-around",
     },
     propertiesToTry: ["justify-content"],
     validOptions: {
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
     },
   },
   {
@@ -130,7 +188,13 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
     },
   },
   {
@@ -145,8 +209,20 @@ export const levels = [
     },
     propertiesToTry: ["align-items", "justify-content"],
     validOptions: {
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
     },
   },
   {
@@ -162,7 +238,13 @@ export const levels = [
     propertiesToTry: ["flex-direction", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -177,8 +259,20 @@ export const levels = [
     },
     propertiesToTry: ["align-items", "justify-content"],
     validOptions: {
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
     },
   },
   {
@@ -193,8 +287,20 @@ export const levels = [
     },
     propertiesToTry: ["justify-content", "align-items"],
     validOptions: {
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -210,7 +316,13 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
     },
   },
   {
@@ -227,8 +339,20 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -245,8 +369,20 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -263,8 +399,20 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -281,8 +429,20 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -299,8 +459,20 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
   },
   {
@@ -317,27 +489,42 @@ export const levels = [
     propertiesToTry: ["flex-direction", "justify-content", "align-items"],
     validOptions: {
       "flex-direction": ["row", "column", "row-reverse", "column-reverse"],
-      "justify-content": ["flex-start", "center", "flex-end", "space-between", "space-around"],
-      "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
-    },
-  },
-    {
-      id: 21,
-      level: 21,
-      "title": "Galactic Relay",
-      "story": "The aliens need to position themselves in a perfect relay line to transmit signals across the galaxy.",
-      "hint": "Adjust the horizontal positioning to create equal gaps between the aliens.",
-      "solution": {
-        "property": "justify-content",
-        "value": "space-evenly"
-      },
-      "valid_options": [
+      "justify-content": [
         "flex-start",
         "center",
         "flex-end",
         "space-between",
-        "space-evenly",
-        "space-around"
-      ]
+        "space-around",
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch",
+        "baseline",
+      ],
     },
+  },
+  {
+    id: 21,
+    level: 21,
+    title: "Galactic Relay",
+    story:
+      "The aliens need to position themselves in a perfect relay line to transmit signals across the galaxy.",
+    hint: "Adjust the horizontal positioning to create equal gaps between the aliens.",
+    solution: {
+      "justify-content": "space-evenly",
+    },
+    propertiesToTry: ["flex-direction", "justify-content", "align-items"],
+    validOptions: {
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-around",
+        "space-evenly",
+      ],
+    },
+  },
 ];

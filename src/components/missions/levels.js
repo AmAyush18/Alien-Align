@@ -321,4 +321,23 @@ export const levels = [
       "align-items": ["flex-start", "center", "flex-end", "stretch", "baseline"],
     },
   },
+    {
+      id: 21,
+      level: 21,
+      "title": "Galactic Relay",
+      "story": "The aliens need to position themselves in a perfect relay line to transmit signals across the galaxy.",
+      "hint": "Adjust the horizontal positioning to create equal gaps between the aliens.",
+      "solution": {
+        "property": "justify-content",
+        "value": "space-evenly"
+      },
+      "valid_options": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between",
+        "space-evenly",
+        "space-around"
+      ]
+    },
 ];
